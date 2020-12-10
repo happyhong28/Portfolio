@@ -1,0 +1,49 @@
+* {margin: 0; padding: 0;}
+body { background-color: #fffde7;}
+#wrap {width: 1200px; margin: 0 auto;}
+#wrap .header_menu {height: auto;}
+#wrap .header_menu {text-align: right; padding-right: 20px;}
+#wrap .header_menu a {color: #fff; padding: 8px 0 6px 10px; display: inline-block; transition: color 0.3s ease; font-family: 'Abel', sans-serif;}
+#wrap .header_menu a:hover {color: #ccc;}
+
+
+
+
+
+header {
+  width: 100%;
+  height: 500px;
+  /* background: url(../img/airpod.jpg) repeat-x center top; */
+  background-color: #00002D;
+ }
+article {width: 100%; height: 300px; background-color: #ffd54f; }
+section {overflow: hidden; padding: 5%; width: 90%;background-color: #ffca28;}
+section > div {width: 18%; margin: 1%; height: 170px; background-color: #ff9800; float: left; border-radius: 5px;}
+footer {width: 100%; height: 100px; background-color: #ffb300}
+
+/* 화면 너비 0 ~ 1200px */
+@media (max-width: 1220px){
+    #wrap {width: 100%;}
+    section > div {width: 23%;}
+    section > div:nth-child(5n) {display: none;}
+}
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+    section > div {width: 31.3333%;}
+    section > div:nth-child(5) {display: block;}
+}
+
+    /* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+    section > div {width: 48%;}
+    section > div:nth-child(5n) {display: block;}
+}
+
+
+#wrap .header_profile{
+  background: url(../img/profile.jpg);
+  width: 300px;
+  border-width: 3px;
+  border-color: #000000;
+}
