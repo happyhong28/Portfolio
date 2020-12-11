@@ -20,16 +20,19 @@ font-family: 'Abel', sans-serif;
   color: #ccc;
 }
 #wrap .profile_pic {
-  width: 30%;
-  height: 50%;
+  width: 20%;
+  height: width;
   margin: 0 auto;
+  margin-top: 30px;
   padding: center;
   display: flex; /*반응형 웹에서 div간의 정렬을 위해서 사_*/
   justify-content: center; /* 가로 중앙정렬 */
+  border-radius: 300px;
 }
 
 #wrap .profile_info {
   color: #fff;
+  margin-top: 30px;
   padding: 8px 0 6px 10px;
   transition: color 0.3s ease;
   font-family: 'Abel', sans-serif;
@@ -78,9 +81,9 @@ footer {width: 100%; height: 100px; background-color: #ffb300}
 }
 
 
-#wrap .header_profile{
+/* #wrap .header_profile{
   background: url(../img/profile.jpg);
   width: 300px;
   border-width: 3px;
   border-color: #000000;
-}
+} */
