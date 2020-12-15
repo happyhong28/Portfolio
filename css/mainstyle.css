@@ -24,10 +24,10 @@ font-family: 'Abel', sans-serif;
 
 /* 프로필 */
 .profile_pic {
-  width: 25%;
+  width: 270px;
   height: width;
   margin-top: 100px;
-  margin-left: 250px;
+  margin-left: 280px;
   /* padding: center; */
   /* display: flex; /*반응형 웹에서 div간의 정렬을 위해서 사_*/ */
   /* justify-content: center; /* 가로 중앙정렬 */
@@ -40,23 +40,18 @@ font-family: 'Abel', sans-serif;
   background-color: #000000;
 }
 
+
 .profile_info {
-  /* margin-top: 30px; */
-  /* padding: 8px 0 6px 10px; */
-
-  /* flex-direction:column; */
-  flex-direction: row;
-  /* align-items: center; */
-}
-
-.profile_info p {
   color: #fff;
   transition: color 0.3s ease;
   font-family: 'Abel', sans-serif;
-  display: inline-grid;
+  /* display: inline-grid; */
 }
 
-
+section .about {
+  justify-content: center;
+  flex-direction: column;
+}
 
 
 
